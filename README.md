@@ -1,0 +1,3 @@
+# Bash Script Memory Exhaustion with Large Files
+
+This repository demonstrates a common error in bash scripting: inefficient memory management when dealing with large files. The script `bug.sh` attempts to process a large file by reading its entire content into memory.  This approach is problematic because it can lead to memory exhaustion if the file is significantly large. The solution, `bugSolution.sh`, demonstrates a more memory-efficient approach using `while` loop and `read` command.
